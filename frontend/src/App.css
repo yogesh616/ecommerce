@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@600&family=Inspiration&family=Jersey+25&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Karma:wght@300;400;500;600;700&family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Moonrocks&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+
+body {
+  background: #f8f8f8;
+  background: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(34, 34, 34);
+  transition: all 0.3s ease-out;
+}
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-bottom: solid 1px #4e4b4b;
+  
+}
+.inputs input {
+  width: 300px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  padding: 0 16px;
+}
+.inputs input:focus {
+  outline: none;
+  
+}
+.inputs input::-webkit-input-placeholder {
+  color: gray;
+  transition: all 0.2s ease-in-out;
+}
+.inputs input:focus::-webkit-input-placeholder {
+  color: #000;
+}
+
+
+.box {
+  width: 700px;
+  max-height: 500px;
+  padding: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+
+.eye {
+  position: relative;
+}
+.eye .fa-regular {
+  font-size: 18px;
+  color: #000;
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  right: 2%;
+}
+
+.link {
+  margin: 10px;
+}
+.link:hover {
+  color: aqua;
+}
+
+.register {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.imgContainer {
+   
+}
+.mobile {
+  max-width: 30%;
+  height: auto;
+}
