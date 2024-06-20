@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://ys30371:gSnQBVVZ7BiFub2M@auth.k3x3hmb.mongodb.net/?retryWrites=true&w=majority&appName=auth').then(()=>{
+mongoose.connect(process.env.URI).then(()=>{
     console.log('connected to db');
 }).catch(err=> {
     console.log(err);
